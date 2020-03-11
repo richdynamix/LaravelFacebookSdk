@@ -10,16 +10,21 @@
             "email": "me@sammyk.me",
             "homepage": "http://sammyk.me",
             "role": "Developer"
+        },
+         {
+            "name": "Steven Richardson",
+            "email": "steven@richdynamix.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "illuminate/auth": "~5.0|~5.1|~5.2|~5.3",
-        "illuminate/config": "~5.0|~5.1|~5.2|~5.3",
-        "illuminate/database": "~5.0|~5.1|~5.2|~5.3",
-        "illuminate/routing": "~5.0|~5.1|~5.2|~5.3",
-        "illuminate/session": "~5.0|~5.1|~5.2|~5.3",
-        "illuminate/support": "~5.0|~5.1|~5.2|~5.3",
+        "php": ">=7.2.0",
+        "illuminate/auth": "5.8.*|6.0.*|7.*",
+        "illuminate/config": "5.8.*|6.0.*|7.*",
+        "illuminate/database": "5.8.*|6.0.*|7.*",
+        "illuminate/routing": "5.8.*|6.0.*|7.*",
+        "illuminate/session": "5.8.*|6.0.*|7.*",
+        "illuminate/support": "5.8.*|6.0.*|7.*",
         "facebook/graph-sdk": "^5.0"
     },
     "require-dev": {
